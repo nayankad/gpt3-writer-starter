@@ -32,7 +32,7 @@ const Home = () => {
 
   const generate = async (e) => {
     e.preventDefault();
-    const prompt = `Tell me what mental health problem I might be experiencing based on the symptoms below and give me some information about it. 
+    const prompt = `Tell me what mental health problem I might be experiencing based on the symptoms below. Give me a comprehensive list of treatments and expand on each point in detail with an example.
 
     Symptoms:
     ${userInput}
